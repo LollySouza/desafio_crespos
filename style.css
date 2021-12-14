@@ -1,0 +1,735 @@
+@import url('https://fonts.googleapis.com/css2? família = Montserrat & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: wght @ 100 & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Playfair + Display: wght @ 900 & display = swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+header{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    z-index: 10;
+    height: 12%;
+}
+.Menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.menuimg{
+    display: none;
+}
+.logodiv{
+  width:8%;
+  height: 100%;
+}
+.logo{
+    width: 5%;
+    height: 8%;
+    position: fixed;
+    margin-left: 2.6%;
+    margin-top:0.8%;
+}
+
+.lista{
+    width: 60vw;
+    height: 100%;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #9767A9;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+   
+
+}
+ul :hover{
+    color:#9767A9 (10, 9, 9);
+    font-weight: bold;
+}
+.buscar{
+    margin-top: 1.2%;
+}
+.pesq{
+    height: 30px;
+    width: 150px;
+    border-color: #9767A9;
+    border: 1.9px solid #9767A9;
+    border-radius: 50px;
+    padding-left: 27px;
+    outline:none;
+    margin-top: 1.75%;
+    margin-left: 7%;
+}
+.lupa{
+    width: 1.7%;
+    height: 30%;
+    position: absolute;
+    margin-left: 1.7%;
+    margin-top: -2.2%;
+    float: left;
+}
+input::placeholder {
+    color:#9767A9;
+}
+.redes{
+    height: 94%;
+    width: 10vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 4%;
+    margin-left: 2%;
+    margin-top: 0.25%;
+}
+.face{
+    width: 23%;
+    height: 48%;
+}
+.insta{
+    width: 23%; 
+    height: 48%;
+}
+.yt{
+    width: 23%;
+    height: 48%;  
+}
+.container-img{
+    width: 100%;
+    position: relative;
+    background-image: url("assets/cabeludo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    height: 88vh;
+}
+.txt{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.txt1{
+    width: 20%;
+    margin-top: 8%;
+    margin-left: 10%;
+    font-family: 'Playfair Display', serif;
+    font-size: 400%;
+}
+.txt2{
+    width: 25%;
+    margin-top: 12%;
+    margin-right: 12%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    font-weight: lighter;
+}
+.container-txt{
+    position: relative;
+    color:#FFFFFF;
+    background-color: #9767A9;
+    height: 44vh;
+    top: 34%;
+}
+.txts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.passos{
+    display: flex;
+    width: 63%;
+    margin-top: 1.2%;
+    font-family: 'Playfair Display', serif;
+    font-size: 300%;
+}
+.text{
+    display: flex;
+    width: 35.5%;
+    margin-top: 3%;
+    margin-right: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    font-weight: lighter;
+    letter-spacing: -0.40px;
+}
+.box-img1{
+    width: 100%;
+    height: 500vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.img1{
+    width: 45vw;
+    height: 120vh;
+    margin-top: -5%;
+    margin-left: 3%;
+    position: absolute; 
+    display: flex;
+}
+.menina-capa{
+    width: 49vw;
+    height: 70vh;  
+}
+.text-menina-capa{
+    width: 35vw;
+    height: 54vh;
+    background:#9767A9;
+    position: absolute;
+    top: 44%;
+    margin-left: 6%;
+    
+}
+.h2img1{
+    width: 68%;
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 150%;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: left;
+}
+.txt1-img1{
+    font-size: 65%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+    margin-left: 4%;
+    line-height: 23px;
+    width: 95%;
+    font-size: 75%;
+    letter-spacing: -0.65px;
+}
+.img2{
+    margin-left: 50%;
+    position: absolute; 
+    display: flex;
+    top: 77vw;
+    height:100vh;
+    width: 48vw;
+    
+}
+
+.img-maju{
+    width: 45vw;
+    height: 70vh;
+    
+}
+.txt-maju{
+    width: 35vw;
+    height: 40vh;
+    background:#9767A9;
+    position: absolute;
+    top: 25vw;
+    left: 12%;
+}
+
+.h2-img2{
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 105%;
+    margin-left: 4%;
+    margin-bottom: 2px;
+    text-align: left;
+}
+.p-img2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+    margin-left: 4%;
+    line-height: 18px;
+    width: 90%;
+    font-size: 75%;
+    letter-spacing: -0.65px;
+}
+
+.img3{
+    margin-left: 3%;
+    position: absolute; 
+    display: flex;
+    top: 77vw;
+    height:100vh;
+    width: 48vw;
+    top: 110.5vw;
+     
+}
+.praia{
+    width: 45vw;
+    height: 70vh;
+}
+.txt-cabeludo{
+    width: 35vw;
+    height: 38vh;
+    background:#9767A9;
+    position: absolute;
+    top: 50%;
+    margin-left: 6%;
+
+}
+.h2img3{
+    width: 68%;
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 150%;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: left;
+}
+.pimg3{
+    font-size: 65%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+    margin-left: 4%;
+    line-height: 23px;
+    width: 95%;
+    font-size: 75%;
+    letter-spacing: -0.65px;
+}
+.img4{
+    margin-left: 50%;
+    position: absolute; 
+    display: flex;
+    top: 127vw;
+    height:100vh;
+    width: 48vw;
+}
+.imgrainha{
+    width: 45vw;
+    height: 70vh;
+}
+.txt-rainha{
+    width: 35vw;
+    height: 33vh;
+    background:#9767A9;
+    position: absolute;
+    top: 32vw;
+    left: 12%; 
+}
+.h2img4{
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 150%;
+    margin-left: 4%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.pimg4{
+    bottom: 2%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+    margin-left: 4%;
+    line-height: 18px;
+    width: 90%;
+    font-size: 75%;
+    letter-spacing: -0.65px;
+}
+.img5{
+    margin-left: 3%;
+    position: absolute; 
+    display: flex;
+    margin-top: 50vw;
+    height:100vh;
+    width: 48vw;
+    top: 110.5vw;  
+}
+.imgmae{
+    width: 45vw;
+    height: 70vh;
+}
+.txt-img5{
+    width: 35vw;
+    height: 43vh;
+    background:#9767A9;
+    position: absolute;
+    top: 50%;
+    margin-left: 6%;
+}
+.h2img5{
+    width: 68%;
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 150%;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: left;
+}
+.pimg5{
+    font-size: 65%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+    margin-left: 4%;
+    line-height: 23px;
+    width: 95%;
+    font-size: 75%;
+    letter-spacing: -0.65px;
+}
+.img6{
+    margin-left: 50%;
+    position: absolute; 
+    display: flex;
+    top: 178vw;
+    height:100vh;
+    width: 48vw;
+}
+.imgespuma{
+    width: 45vw;
+    height: 70vh;  
+}
+.txt-espuma{
+    width: 35vw;
+    height: 30vh;
+    background:#9767A9;
+    position: absolute;
+    top: 32vw;
+    left: 12%;
+}
+.h2img6{
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 150%;
+    margin-left: 4%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.pimg6{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+    margin-left: 4%;
+    line-height: 18px;
+    width: 90%;
+    font-size: 75%;
+    letter-spacing: -0.65px;
+}
+.img7{
+    margin-left: 3%;
+    position: absolute; 
+    display: flex;
+    margin-top: 101vw;
+    height:100vh;
+    width: 48vw;
+    top: 110.5vw;
+}
+.imggrizalha{
+    width: 45vw;
+    height: 70vh;
+}
+.txt-grizalha{
+    width: 35vw;
+    height: 33vh;
+    background:#9767A9;
+    position: absolute;
+    top: 50%;
+    margin-left: 6%;
+}
+.h2img7{
+    width: 68%;
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 150%;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: left; 
+}
+.pimg7{
+    font-size: 65%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+    margin-left: 4%;
+    line-height: 23px;
+    width: 95%;
+    font-size: 75%;
+    letter-spacing: -0.65px;
+}
+.img8{
+    width: 40%;
+    height: 20%;
+    position: absolute; 
+    display: flex;
+    top: 45%;
+    left: 53vw;
+}
+.imgondas{
+    width: 200%;
+    height: 50%;
+   
+}
+.galeria{
+    margin-top: -45%;
+    display: flex;
+    flex-direction: row;
+    width: 78.5%; 
+    margin-left: 12%;
+    margin-bottom: 3%;
+}
+.fila1{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5%;
+}
+.king{
+    width: 15vw;
+    height: 94vh;
+    
+}
+.gloria{
+    width: 15vw;
+    height: 47vh;
+    margin-top: 4%;  
+}
+.fila2{
+    display: flex;
+    flex-direction: column;
+}
+.byonce{
+    margin-top: 2.5%;
+    width: 15vw;
+    height: 46.5vh;
+}
+.michel-b{
+    width: 15vw;
+    height: 47vh;
+    margin-top: 4%;  
+}
+.thaís{
+    width: 15vw;
+    height: 47vh;
+    margin-top: 4%;
+}
+.fila3{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5%;
+}
+.grace{
+    width: 15vw;
+    height: 94.5vh;
+}
+.snoopy{
+    width: 15vw;
+    height: 47vh;
+    margin-top: 4%;  
+}
+.fila4{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.5%;
+    margin-top: 0.5%;
+}
+.stylish{
+    width: 15vw;
+    height: 142.5vh;
+}
+.fila5{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5%;
+}
+.distraído{
+    margin-top: 4%;
+    width: 15vw;
+    height: 94vh;
+}
+.tranças{
+    width: 15vw;
+    height: 47vh;  
+}
+
+
+
+
+footer{
+    width: 100%;
+    background-color: #9767A9;
+    display:inline-flex;
+    color: white;
+    height: 10vh;
+}
+.vnw{
+    margin-top: 1%;
+    margin-left: 7%;
+    width: 60vw;
+}
+a{
+    color: white;
+    font-size: 75%;
+}
+.setas{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin-left: 9%;
+    color: white;
+}
+.seta1{
+    height: 80%;
+    width: 23%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    font-size: 75%
+   
+}
+.seta1:hover{
+    background: #AC95BB;
+    cursor: pointer;
+}
+.setaesquerda{
+    height: 5vh;
+    width: 3vw;
+}
+.seta2{
+    height: 80%;
+    width: 23%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: #fff; 
+    display: flex;
+    flex-direction: row; 
+    font-size: 75%
+
+}
+.seta2:hover{
+    background: #AC95BB;
+    cursor: pointer;
+}
+.setameio{
+    height: 5vh;
+    width: 3vw;
+}
+.seta3{
+    height: 80%;
+    width: 23%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: #fff;  
+    display: flex;
+    flex-direction: row; 
+    font-size: 75%
+    
+}
+.seta3:hover{
+    background: #AC95BB;
+    cursor: pointer;
+}
+.setadireita{
+    height: 5vh;
+    width: 3vw;
+}
+@media (max-width:723px){
+    li{
+        display: none;
+    }
+    .redes{
+        display: none;
+    }
+    .buscar{
+        display: none;
+    }
+
+    .Menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .menuimg{
+        width: 10%;
+        height: 10%;
+
+    }
+    .container-img{
+        width: 100%;
+        position: relative;
+        background-image: url("assets/cabeludo@2x.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center ;
+        display: flex;
+        align-items: center;
+        color:#FFFFFF;
+        height: 120vh;
+    }
+    .txt{
+        display: flex;
+        flex-direction: column;
+    }
+    .txt1{
+        width:50%;
+        margin-top: -28%;
+        margin-left: 10%;
+        font-family: 'Playfair Display', serif;
+        font-size: 3.5rem;
+    }
+    .txt2{
+        width: 60%;
+        margin-right: 12%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3rem;
+        font-weight: lighter;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .container-txt{
+        position: relative;
+        color:#FFFFFF;
+        background-color: #9767A9;
+        top: 34%;
+    }
+    .txts{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .passos{
+        display: flex;
+        width: 73%;
+        margin-top: 1.2%;
+        font-family: 'Playfair Display', serif;
+        font-size: 1.3rem;
+    }
+    .text{
+        display: flex;
+        width: 82%;
+        margin-top: 3%;
+        margin-right: 2%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        font-weight: lighter;
+        letter-spacing: -0.40px;
+    }
+
+
+
+    .fotos{
+        display: none;
+    }
+    .galeria{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    
+}
