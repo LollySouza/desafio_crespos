@@ -752,7 +752,7 @@ a{
         height: 40vh;  
     }
     .text-menina-capa{
-        width: 375px;
+        width: 370px;
         height: 300px;
         background:#9767A9;
         position: absolute;
@@ -784,7 +784,7 @@ a{
     .img2{
         position: absolute; 
         display: flex;
-        top: 1170px;
+        top: 1165px;
         height:100vh;
         width: 48vw;
         margin-left: 8%
@@ -796,7 +796,7 @@ a{
   
     }
     .txt-maju{
-        width: 375px;
+        width: 370px;
         height: 40vh;
         background:#9767A9;
         position: absolute;
@@ -819,14 +819,56 @@ a{
         font-weight:lighter;
         margin-left: 4%;
         line-height: 20px;
-        width: 100%;
+        width: 90%;
         font-size: 1rem;
         letter-spacing: -0.65px;
         
     }
     
     .img3{
-        display: none;
+        margin-left: 3%;
+        position: absolute; 
+        display: flex;
+        margin-top: 1315px;
+        height:100vh;
+        width: 48vw;
+        top: 110.5vw;
+         
+    }
+    .praia{
+        width: 80vw;
+        height: 40vh;
+        margin-left: 11%;
+    }
+    .txt-cabeludo{
+        width: 370px;
+        height: 38vh;
+        background:#9767A9;
+        position: absolute;
+        margin-top: -78%;
+        margin-left: -7%;
+    
+    }
+    .h2img3{
+        width: 240px;
+        color:#fff;
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        margin-left: 4%;
+        margin-bottom: 2px;
+        text-align: left;
+    }
+    .pimg3{
+        
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight:lighter;
+        margin-left: 4%;
+        line-height: 20px;
+        width: 90%;
+        font-size: 1rem;
+        letter-spacing: -0.65px;
+        
     }
     .img4{
         display: none;
