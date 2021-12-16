@@ -562,7 +562,7 @@ footer{
     background-color: #9767A9;
     display:inline-flex;
     color: white;
-    height: 10vh;
+    height: 15vh;
 }
 .copy{
     display: none;
@@ -573,7 +573,7 @@ footer{
 .vnw{
     margin-top: 1%;
     margin-left: 7%;
-    width: 60vw;
+    width: 62vw;
 }
 a{
     color: white;
@@ -651,9 +651,6 @@ a{
         width: 100%;
         display: flex;
         z-index: 10;
-        border: 2px solid black ;
-        height: 13vh;
-       
     }
     li{
         display: none;
@@ -665,58 +662,67 @@ a{
         display: none;
     }
     .menuimg{
-        width: 900px;
-        height: 500vh;
+        width: 500px;
         background-image: url('assets/Menu.png');
         background-repeat: no-repeat;
+        background-size: contain;
         display: flex;
-        
+        align-items: center;
+        justify-content: center;
 
     }
     .logo{
-        width: 55px;
-        height: 36px;
+        width: 60px;
+        height: 45px;
+        margin-left: -10vh;
       }
     .container-img{
-        width: 700px;
+        width: 100%;
         position: relative;
         background-image: url("assets/cabeludo@2x.png");
-        
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center ;
         display: flex;
         align-items: center;
         color:#FFFFFF;
-        height: 130vh;
-        top: -100px;
+        height: 100vh;
+        
     }
     .txt{
         display: flex;
         flex-direction: column;
-        margin-top: 25%;
+        margin-top: 0%;
     }
     .txt1{
-        width:40%;
+        width:50%;
         margin-left: 10%;
         font-family: 'Playfair Display', serif;
-        font-size: 4.5rem;
+        font-size: 2.5rem;
         top: -50px;
     }
     .txt2{
-        width: 40%;
+        width: 50%;
         margin-bottom: 20%;
         font-family: 'Montserrat', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: lighter;
         margin-left: 10%;
     }
-   
+    .container-txt{
+        position: relative;
+        color:#FFFFFF;
+        background-color: #9767A9;
+        height: 90vh;
+        top: 34%;
+    }
     .txts{
-        margin-top: 390px;
+        margin-top: -18px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+       
     }
     .passos{
         display: flex;
@@ -746,24 +752,25 @@ a{
         
     }
     .img1{
-        width: 55vw;
+        width:300px;
         height: 120vh;
-        margin-top: 4%;
+        margin-top: 3%;
         margin-left: 8%;
         position: absolute; 
         display: flex;
     }
     .menina-capa{
-        width: 80vw;
-        height: 40vh;  
+        width: 300px;
+        height: 45vh;
+        
     }
     .text-menina-capa{
-        width: 370px;
+        width: 375px;
         height: 300px;
         background:#9767A9;
         position: absolute;
-        top: 18%;
-        margin-left: -15%;
+        top: 20%;
+        margin-left: -10%;
         
     }
     .h2img1{
@@ -782,7 +789,7 @@ a{
         font-family: 'Montserrat', sans-serif;
         font-weight:lighter;
         margin-left: 4%;
-        line-height: 15px;
+        line-height: 19px;
         width: 95%;
         letter-spacing: -0.55px;
     }
@@ -792,22 +799,22 @@ a{
         display: flex;
         margin-top: 875px;
         height:100vh;
-        width: 48vw;
+        width: 100%;
         margin-left: 8%
        
     }
     .img-maju{  
-        width: 80vw;
-        height: 40vh;  
+        width: 300px;
+        height: 45vh;  
   
     }
     .txt-maju{
-        width: 370px;
-        height: 40vh;
+        width:100%;
+        height: 90vh;
         background:#9767A9;
         position: absolute;
-        top: 35vw;
-        left: -19%;
+        top: -98px;
+        left: -8%;
         margin-top: 70%;
     }
     
@@ -824,8 +831,8 @@ a{
         font-family: 'Montserrat', sans-serif;
         font-weight:lighter;
         margin-left: 4%;
-        line-height: 20px;
-        width: 90%;
+        line-height: 24px;
+        width: 80%;
         font-size: 1rem;
         letter-spacing: -0.65px;
         
@@ -837,8 +844,8 @@ a{
         display: flex;
         margin-top: 1315px;
         height:100vh;
-        width: 48vw;
-        top: 110.5vw;
+        width:100%;
+        top: 103vw;
          
     }
     .praia{
@@ -847,12 +854,12 @@ a{
         margin-left: 11%;
     }
     .txt-cabeludo{
-        width: 370px;
-        height: 38vh;
+        width: 375px;
+        height: 55vh;
         background:#9767A9;
         position: absolute;
-        margin-top: -78%;
-        margin-left: -7%;
+        margin-top:-20%;
+        margin-left: -3%;
     
     }
     .h2img3{
