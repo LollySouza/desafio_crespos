@@ -70,8 +70,8 @@ ul :hover{
     width: 1.7%;
     height: 30%;
     position: absolute;
-    margin-left: 2.5%;
-    margin-top: -2.8%;
+    margin-left: 2%;
+    margin-top: -1.9%;
     float: left;
 }
 input::placeholder {
@@ -713,8 +713,8 @@ a{
         position: relative;
         color:#FFFFFF;
         background-color: #9767A9;
-        height: 90vh;
-        top: 34%;
+        height: 95vh;
+        top: 40%;
     }
     .txts{
         margin-top: -18px;
@@ -1077,7 +1077,7 @@ a{
        
     }
     .galeria{
-        margin-top: 850px;
+        margin-top: 860px;
         display: flex;
         margin-left: 25px;
     }
