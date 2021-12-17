@@ -71,7 +71,7 @@ ul :hover{
     height: 30%;
     position: absolute;
     margin-left: 2%;
-    margin-top: -2.3%;
+    margin-top: -2.6%;
     float: left;
 }
 input::placeholder {
@@ -1077,7 +1077,7 @@ a{
        
     }
     .galeria{
-        margin-top: 860px;
+        margin-top: 890px;
         display: flex;
         margin-left: 25px;
     }
