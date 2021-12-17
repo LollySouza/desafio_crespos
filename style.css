@@ -71,7 +71,7 @@ ul :hover{
     height: 30%;
     position: absolute;
     margin-left: 2%;
-    margin-top: -1.9%;
+    margin-top: -2.3%;
     float: left;
 }
 input::placeholder {
@@ -714,10 +714,10 @@ a{
         color:#FFFFFF;
         background-color: #9767A9;
         height: 95vh;
-        top: 40%;
+        top: 45%;
     }
     .txts{
-        margin-top: -18px;
+        margin-top: -20px;
         display: flex;
         flex-direction: column;
         align-items: center;
