@@ -851,7 +851,7 @@ a{
     .praia{
         width: 80vw;
         height: 40vh;
-        margin-left: 11%;
+        margin-left: 6%;
     }
     .txt-cabeludo{
         width: 375px;
@@ -884,27 +884,27 @@ a{
         
     }
     .img4{
-        margin-left: 3%;
+        margin-left: 1%;
         position: absolute; 
         display: flex;
         margin-top: 1850px;
         height:100vh;
-        width: 48vw;
-        top: 110.5vw;
+        width: 100%;
+        top: 56vw;
          
     }
     .imgrainha{
         width: 80vw;
         height: 40vh;
-        margin-left: 11%;
+        margin-left: 7%;
     }
     .txt-rainha{
-        width: 370px;
-        height: 30vh;
+        width: 375px;
+        height: 53vh;
         background:#9767A9;
         position: absolute;
-        margin-top: 88%;
-        margin-left: -20%;
+        margin-top: 9%;
+        margin-left: -13%;
     
     }
     .h2img4{
@@ -934,22 +934,22 @@ a{
         display: flex;
         margin-top: 2360px;
         height:100vh;
-        width: 48vw;
-        top: 110.5vw;
+        width: 100%;
+        top: 20vw;
          
     }
     .imgmae{
         width: 80vw;
         height: 40vh;
-        margin-left: 11%;
+        margin-left: 8%;
     }
     .txt-img5{
-        width: 370px;
-        height: 35vh;
+        width: 375px;
+        height: 64vh;
         background:#9767A9;
         position: absolute;
-        margin-top: -90%;
-        margin-left: -7%;
+        margin-top: -23%;
+        margin-left: -3%;
     
     }
     .h2img5{
@@ -974,13 +974,13 @@ a{
         
     }
     .img6{
-        margin-left: 3%;
+        margin-left: 1%;
         position: absolute; 
         display: flex;
         margin-top: 2840px;
         height:100vh;
-        width: 48vw;
-        top: 110.5vw;
+        width:100%;
+        top: -6vw;
          
     }
     .imgespuma{
@@ -989,16 +989,16 @@ a{
         margin-left: 11%;
     }
     .txt-espuma{
-        width: 370px;
-        height: 30vh;
+        width: 375px;
+        height: 53vh;
         background:#9767A9;
         position: absolute;
-        margin-top: 80%;
-        margin-left: -20%;
+        margin-top: 5%;
+        margin-left: -13%;
     
     }
     .h2img6{
-        width: 97%;
+        width: 100%;
         color:#fff;
         font-family: 'Playfair Display', serif;
         font-size: 28px;
@@ -1012,7 +1012,7 @@ a{
         font-family: 'Montserrat', sans-serif;
         font-weight:lighter;
         margin-left: 4%;
-        line-height: 20px;
+        line-height: 22px;
         width: 90%;
         font-size: 1rem;
         letter-spacing: -0.65px;
@@ -1024,22 +1024,22 @@ a{
         display: flex;
         margin-top: 3335px;
         height:100vh;
-        width: 48vw;
-        top: 110.5vw;
+        width: 100%;
+        top: -40vw;
          
     }
     .imggrizalha{
         width: 80vw;
         height: 40vh;
-        margin-left: 11%;
+        margin-left: 5%;
     }
     .txt-grizalha{
-        width: 370px;
-        height: 30vh;
+        width: 375px;
+        height: 55vh;
         background:#9767A9;
         position: absolute;
-        margin-top: -70%;
-        margin-left: -10%;
+        margin-top: -17%;
+        margin-left: -3%;
     
     }
     .h2img7{
@@ -1057,7 +1057,7 @@ a{
         font-family: 'Montserrat', sans-serif;
         font-weight:lighter;
         margin-left: 4%;
-        line-height: 20px;
+        line-height: 23px;
         width: 90%;
         font-size: 1rem;
         letter-spacing: -0.65px;
@@ -1068,7 +1068,7 @@ a{
         height: 20%;
         position: absolute; 
         display: flex;
-        top: 65%;
+        top: 95%;
         left: 18vw;
     }
     .imgondas{
@@ -1077,30 +1077,101 @@ a{
        
     }
     .galeria{
-        display: none;
+        margin-top: 850px;
+        display: flex;
+        margin-left: 25px;
     }
+    
+    .king{
+        width: 35vw;
+        height: 55vh;
+        
+    }
+    .gloria{
+        width: 310px;
+        height: 47vh;
+        margin-top: 4%;  
+    }
+    
+    .byonce{
+        margin-top: 2.5%;
+        margin-left: -170px;
+        width: 20vw;
+        height: 23vh;
+    }
+    .michel-b{
+        margin-left: -80px;
+        margin-top: -93px;
+        width: 20vw;
+        height: 23vh;  
+    }
+    .thaís{
+        width: 44vw;
+        height: 29vh;
+        margin-top: 10px;
+        margin-left: -170px;
+    }
+    
+    .grace{
+        width: 42vw;
+        height: 55vh;
+        margin-top: 435px;
+        margin-left: -160px;
+    }
+    .snoopy{
+        width: 18vw;
+        height: 20vh;
+        margin-top: -82px;
+        margin-left: -235px;  
+    }
+    
+    .stylish{
+        margin-top: 430px;
+        margin-left: -237px; 
+        width: 18vw;
+        height: 33vh;
+    }
+   
+    .distraído{
+        margin-top: -223px;
+        margin-left: -315px; 
+        width: 18vw;
+        height: 33vh;
+    }
+    .tranças{
+        width: 19vw;
+        height: 20vh;
+        margin-top: 573px;
+        margin-left: -318px;  
+    }
+
+
     footer{
         width: 100%;
         background-color: white;
         display:inline-flex;
         color: black;
-        height: 10vh;
+        margin-top: 100px;
     }
     .navegacao{
+        display: flex;
         width: 30%;
-        height: 15%;
+        height: 50%;
+        margin-left: 240px;
+        margin-top: -70px;
     }
     .copy{
+        position:absolute;
+        display: flex;
         color: black;
         font-weight: bold;
-        font-size: 20px;
-        margin-top: 1%;
+        font-size: 19px;
+        margin-top: -25px;
         margin-left: 7%;
         width: 100%;
-        font-size: 15px;
     }
     .vnw{
-        margin-top: 1%;
+        margin-top: 13%;
         margin-left: 7%;
         width: 100%;
         font-size: 15px;
